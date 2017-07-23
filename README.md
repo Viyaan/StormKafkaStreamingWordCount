@@ -40,12 +40,10 @@ End with an example of getting some data out of the system or using it for a lit
 
 
 
-## Deployment
-
-##Dependency
+## Dependencies
 
 
- <dependency>
+	<dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-core</artifactId>
             <version>0.9.4</version>
@@ -54,7 +52,7 @@ End with an example of getting some data out of the system or using it for a lit
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-kafka</artifactId>
             <version>0.9.3</version>
-  </dependency>
+    </dependency>
 
 ## Built With
 
@@ -83,4 +81,6 @@ End with an example of getting some data out of the system or using it for a lit
 * Hat tip to anyone who's code was used
 * Inspiration
 * etc
+
+
 
