@@ -53,6 +53,22 @@ End with an example of getting some data out of the system or using it for a lit
             <artifactId>storm-kafka</artifactId>
             <version>0.9.3</version>
     </dependency>
+    
+    <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.9.2</artifactId>
+            <version>0.8.1.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.zookeeper</groupId>
+                    <artifactId>zookeeper</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
+    </dependency>
 
 ## Built With
 
